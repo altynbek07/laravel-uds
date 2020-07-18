@@ -1,0 +1,59 @@
+{
+    "name": "altynbek07/laravel-uds",
+    "description": "UDS integration for Laravel",
+    "keywords": [
+        "laravel",
+        "uds"
+    ],
+    "homepage": "https://github.com/altynbek07/laravel-uds",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Altynbek",
+            "email": "altynbek.kazezov.97@gmail.com",
+            "homepage": "https://github.com/altynbek07",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "orchestra/testbench": "^5.0",
+        "phpunit/phpunit": "^9.0",
+        "psalm/plugin-laravel": "^1.2",
+        "vimeo/psalm": "^3.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Altynbek07\\Uds\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Altynbek07\\Uds\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "psalm": "vendor/bin/psalm",
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Altynbek07\\Uds\\UdsServiceProvider"
+            ],
+            "aliases": {
+                "Ud": "Altynbek07\\Uds\\UdsFacade"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
