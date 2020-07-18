@@ -2,8 +2,8 @@
 
 namespace Altynbek07\Uds;
 
-use Illuminate\Support\ServiceProvider;
 use Altynbek07\Uds\Commands\UdsCommand;
+use Illuminate\Support\ServiceProvider;
 
 class UdsServiceProvider extends ServiceProvider
 {
