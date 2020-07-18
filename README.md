@@ -14,6 +14,13 @@ You can install the package via composer:
 composer require altynbek07/laravel-uds
 ```
 
+You should set these environment variables in your `.env` file:
+
+```env
+UDS_ID=YourCompanyId
+UDS_KEY=YourApiKey
+```
+
 You can publish the config file with:
 
 ```bash
@@ -24,6 +31,14 @@ This is the contents of the published config file:
 
 ```php
 return [
+    /**
+     * Your company ID from UDS
+     */
+    'id' => env('UDS_ID'),
+    /**
+     * Your API Key from UDS
+     */
+    'key' => env('UDS_KEY'),
 ];
 ```
 
