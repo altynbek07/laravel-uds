@@ -2,8 +2,8 @@
 
 namespace Altynbek07\Uds\Tests;
 
-use Orchestra\Testbench\TestCase as Orchestra;
 use Altynbek07\Uds\UdsServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
