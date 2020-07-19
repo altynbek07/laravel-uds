@@ -4,7 +4,9 @@
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/altynbek07/laravel-uds/run-tests?label=tests)](https://github.com/altynbek07/laravel-uds/actions?query=workflow%3Arun-tests+branch%3Amaster)
 [![Total Downloads](https://img.shields.io/packagist/dt/altynbek07/laravel-uds.svg?style=flat-square)](https://packagist.org/packages/altynbek07/laravel-uds)
 
-[![UDS](./img/uds-horizontal.svg)](https://uds.app)
+<p align="center">
+    <img src="./img/uds-horizontal.svg" height="100" />
+</p>
 
 This package is the bridge between UDS and Laravel.
 
