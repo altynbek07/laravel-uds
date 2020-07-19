@@ -50,7 +50,7 @@
                 "Altynbek07\\Uds\\UdsServiceProvider"
             ],
             "aliases": {
-                "Ud": "Altynbek07\\Uds\\UdsFacade"
+                "Uds": "Altynbek07\\Uds\\Facades\\Uds"
             }
         }
     },
